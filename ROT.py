@@ -82,7 +82,10 @@ def dec(cipherText):
 
 
 
-
+#Creates An input menu in terminal line so the user can enter their options, 
+#1 = ROT 13
+#2 = ROT 47 
+#3 = ROT 5
 
 something=input('Choose 1-3: ')
 if something=='1':
