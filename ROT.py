@@ -1,7 +1,7 @@
 #Designed and made by Ulugbek Iskandarov,
 #To be used only for education purpose. 
 
-
+#ROT13
 def alpha(cipherText):
     #Calls the define as alpha
     alphabet='abcdefghijklmnopqrstuvwxyz'
@@ -29,7 +29,7 @@ def alpha(cipherText):
 
 
 
-
+#ROT47
 def all(cipherText):
     alphabet='''!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'''
 
@@ -54,7 +54,7 @@ def all(cipherText):
 
         print("ROT47 shift of",i,'the message is\n\n',plainText,'\n')
 
-
+#ROT5
 def dec(cipherText):
     alphabet='0123456789'
 
@@ -82,7 +82,7 @@ def dec(cipherText):
 
 
 
-#Creates An input menu in terminal line so the user can enter their options, 
+#Creates An input menu in terminal line so the user can enter their options, and input their encrypted message
 #1 = ROT 13
 #2 = ROT 47 
 #3 = ROT 5
